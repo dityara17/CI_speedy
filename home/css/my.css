@@ -1,0 +1,51 @@
+.header nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: stretch;
+}
+
+.header .top-nav{
+    margin-top: 20px;
+}
+.top-nav li{
+    border-radius: 40px;
+}
+nav li{
+    border: 4px solid black;
+}
+
+.header li a{
+    color: white;
+    text-decoration: none;
+}
+
+.header nav li{
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    margin: 5px;
+    padding: 6px 8px;
+    font-size: 16px;
+    flex-grow: 1;
+}
+
+.header .title h2{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 41px;
+}
+
+.header nav li.active{
+    background: mediumpurple;
+    border: 4px solid rebeccapurple;
+}
+
+.box-pro{
+    padding: 10px;
+}
+
+.box-pro img{
+    margin: 0 auto;
+}
